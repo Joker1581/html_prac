@@ -1,0 +1,22 @@
+blockquote{
+    display: block;
+    background-color: #fff;
+    padding: 15px 20px 15px 45px;
+    margin: 0 0 20px;
+    position: relative;
+
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    line-height: 1.2;
+    color: #666;
+    text-align: justify;
+
+    border-left: 15px solid #FFCCFF;
+    border-right: 2px solid #FFCCFF;
+
+    box-shadow: 2px 2px 15px #ccc;
+}
+
+.bold{
+    font-weight: bolder;
+}
