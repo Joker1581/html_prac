@@ -74,12 +74,13 @@
                 <td colspan="4">主观意见</td>
             </tfoot>
         </table>
-        <form action="welcome.php" method="post">
-            Name: <input type="text" name="name"><br>
-            Email: <input type="text" name="email"><br>
+        <form target="_blank" action="welcome.php" method="post" autocomplete="off">
+            Name: <input type="text" name="name" autocomplete="on" value="Jeff" disabled><br>
+            Email: <input type="text" name="email" autofocus readonly><br>
             Password: <input type="password" name="password"><br>
-            <button type="submit">Submit</button>
+            <button type="submit" >Submit</button>
             <button type="reset">Reset</button>
         </form>
+        
     </body>
 </html>

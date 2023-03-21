@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<!-- saved from url=(0060)https://ilovefishc.com/html5/html5/lesson17/test4/index.html -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <title>Survey</title>
+</head>
+<body>
+    <form action="https://ilovefishc.com/html5/html5/lesson17/test4/welcome.php" method="post">
+        <!-- 使用legend元素为fieldset定义说明文字 -->
+        <fieldset>
+            <legend>基本信息</legend>
+            <label for="name">姓名：</label><input type="text" name="name" id="name"><br><br>
+            <label for="sex">性别：
+                <select name="sex" id="sex">
+                    <label for=""><input type="radio" name="sex" value="male">Male</label>
+                    <label for=""><input type="radio" name="sex" value="female">Female</label>
+                    <!--
+                    <optgroup>
+                        <option value="l1">l1</option>
+                    </optgroup>
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                    -->
+                </select>
+            </label>
+            <!--<input type="text" name="sex" id="sex"><br><br> -->
+            <label for="age">年龄：</label><input type="text" name="age" id="age">
+        </fieldset>
+        <p>为了给您提供更好的服务，希望您能抽出几分钟时间，将您的感受和建议告诉我们，我们非常重视每位用户的宝贵意见，期待您的参与！现在我们就马上开始吧！</p>
+        <fieldset>
+        <legend>调查内容</legend>
+            <label for="q1">您是否使用过鱼C论坛：</label><input type="text" name="age" id="age"><br><br>
+            <label for="q2">您使用鱼C论坛的目的是：</label><input type="text" name="age" id="age"><br><br>
+            <label for="q3">您使用鱼C论坛的频率是：</label><input type="text" name="age" id="age">
+        </fieldset>
+        <br>
+        <button type="submit">提交</button>
+    </form>
+
+</body></html>
